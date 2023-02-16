@@ -47,3 +47,20 @@ body {
   flex: 1;
   background: linear-gradient(211.35deg, #0d769d 11.53%, #00b6d9 116.72%);
 }
+
+@media screen and (max-width: 780px) {
+  /* Safari 6.1+ */
+  .rightSection {
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .leftSection {
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .authBody {
+    flex-direction: column;
+  }
+}
